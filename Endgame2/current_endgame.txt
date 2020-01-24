@@ -1,0 +1,16 @@
+StarkIndustries 300 0
+WayneEnterprises 275.25 0
+DailyPlanet 289.72 0
+BigBellyBurger 190.1 0
+LexCorpIndustries 242.5 0
+ParkerIndustries 185.2 0
+QueenConsolidated 225.75 0
+Oscorp 210.45 0
+S.H.I.E.L.D 142.94 0
+XavierFunds 141.23 0
+RamonIndustries 98.1 0
+BannerChemicalIndustry 97.45 0
+WakandaCorporation 150 0
+NonsenseCompany 124 0
+StrangeCompany 407 0
+MurdockFunds 180 0
