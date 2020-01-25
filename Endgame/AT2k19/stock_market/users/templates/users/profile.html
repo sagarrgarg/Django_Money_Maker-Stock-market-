@@ -1,0 +1,30 @@
+{% extends "stock_price/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="content-section">
+        <div class="media-body">
+          <h2 class="account-heading">{{ user.username }}</h2>
+          <p class="text-secondary">{{ user.email }}</p>
+          <p></p>
+          <h3><p> Money possesed : {{ user.profile.money_possesed }} </p></h3>
+          <p class="text-primary">StarkIndustries stock possesed : {{ user.profile.Tesla_stock}}</p>
+          <p class="text-primary">WayneEnterprises stock possesed : {{ user.profile.TataMotors_stock}}</p>
+          <p class="text-primary">DailyPlanet stock possesed : {{ user.profile.Nissan_stock}}</p>
+          <p class="text-primary">BigBellyBurger stock possesed : {{ user.profile.JPMorgan_stock}}</p>
+          <p class="text-primary">S.H.I.E.L.D stock possesed : {{ user.profile.Credit_stock}}</p>
+          <p class="text-primary">LexCorpIndustries stock possesed : {{ user.profile.SunPharma_stock}}</p>
+          <p class="text-primary">ParkerIndustries stock possesed : {{ user.profile.GSKPfizer_stock}}</p>
+          <p class="text-primary">QueenConsolidated stock possesed : {{ user.profile.Nestle_stock}}</p>
+          <p class="text-primary">Oscorp stock possesed : {{ user.profile.BHEL_stock}}</p>
+          <p class="text-primary">MurdockFunds stock possesed : {{ user.profile.Uncash_stock}}</p>
+          <p class="text-primary">RamonIndustries stock possesed : {{ user.profile.Heralded_stock}}</p>
+          <p class="text-primary">XavierFunds stock possesed : {{ user.profile.Crystal_stock}}</p>
+          <p class="text-primary">BannerChemicalIndustry stock possesed : {{ user.profile.Soteria_stock}}</p>
+          <p class="text-primary">WakandaCorporation stock possesed : {{ user.profile.APInfovault_stock}}</p>
+          <p class="text-primary">NonsenseCompany stock possesed : {{ user.profile.Bayer_stock}}</p>
+          <p class="text-primary">StrangeCompany stock possesed : {{ user.profile.Exxon_stock}}</p>
+
+
+        </div>
+      </div>
+{% endblock content %}
